@@ -1,0 +1,331 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* ------------------------ Header ----------------------------- */
+#header {
+  background: url(image/p9.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 0;
+}
+.navbar {
+  background-color: transparent;
+}
+#titlename {
+  text-decoration: none;
+  color: rgb(12, 114, 240);
+}
+.navbar img {
+  width: 50px;
+  background-color: rgb(12, 114, 240);
+  padding: 3px;
+  border-radius: 50%;
+}
+.navbar img:hover {
+  box-shadow: 0 0 5px 3px white;
+  background-color: white;
+}
+.nav-link {
+  color: rgb(12, 114, 240) !important;
+  margin: 0 5px;
+  border-radius: 8px;
+}
+.nav-link:hover,
+#active {
+  color: white !important;
+  background-color: rgb(12, 114, 240);
+  border-radius: 8px;
+}
+#baner {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#baner div {
+  width: 55%;
+  text-align: center;
+  color: rgb(12, 114, 240);
+  background-color: rgba(165, 165, 165, 0.4);
+  backdrop-filter: blur(7px);
+  padding: 20px;
+  border-radius: 10px;
+  transform: translateY(100px);
+  transition: 2s;
+}
+#baner div p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: justify;
+}
+.offcanvas {
+  text-align: center;
+}
+.offcanvas-header {
+  border-bottom: 1px solid rgb(12, 114, 240);
+}
+.navbar-text a span {
+  color: rgb(12, 114, 240);
+  font-size: 20px;
+  margin-right: 10px;
+}
+.navbar-text a span:hover {
+  color: white;
+}
+/* ------------------------ Body ----------------------------- */
+#box-info {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#box-info #info {
+  text-align: center;
+  background-color: rgba(221, 230, 221, 0.788);
+  color: rgba(12, 114, 240, 0.788);
+  padding: 30px 20px 10px 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+#box-info #info span {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+#star-on {
+  color: gold;
+  font-size: 13px;
+}
+#star-off {
+  color: rgb(201, 201, 201);
+  font-size: 13px;
+}
+#booking-box {
+  display: flex;
+  justify-content: center;
+}
+#title {
+  text-align: center;
+  color: rgb(12, 114, 240);
+  margin: 25px 0;
+}
+#card {
+  margin: 10px;
+  padding: 0;
+}
+.card-body #name-value {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(12, 114, 240);
+}
+.card-body .btn {
+  width: 100%;
+}
+.card-body .btn a {
+  text-decoration: none;
+  color: inherit;
+}
+#Dishes-box {
+  display: flex;
+  justify-content: center;
+}
+#dish-box {
+  color: rgb(12, 114, 240);
+}
+#discount {
+  margin: 50px 0;
+  background-color: rgba(13, 110, 228, 0.555);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#box1,
+#box2,
+#box3,
+#box4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+#box1 {
+  background-image: url("image/f14.jpg");
+}
+#box2 {
+  background-image: url("image/f2.jpg");
+}
+#box3 {
+  background-image: url("image/f9.png");
+}
+#box4 {
+  color: white;
+}
+#box4 #labal {
+  position: relative;
+  display: none;
+}
+#box4 .btn {
+  width: 100%;
+}
+#box4 .btn a {
+  text-decoration: none;
+  color: inherit;
+}
+#box4 h6 {
+  color: rgb(255, 0, 0);
+}
+#reason {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+#reason #reason-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#reason #reason-text h2 {
+  color: rgb(12, 114, 240);
+}
+#icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon {
+  background-color: rgba(221, 230, 221, 0.788);
+  margin: 8px;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(12, 114, 240);
+}
+#icon img {
+  margin: 10px;
+  width: 60px;
+}
+#user-box-left .row {
+  background-color: rgba(221, 230, 221, 0.788);
+  padding: 20px;
+  margin: 10px 0px 10px 70px;
+  border-radius: 10px;
+}
+#user-box .row {
+  background-color: rgba(221, 230, 221, 0.788);
+  padding: 20px;
+  margin: 10px 70px 10px 0px;
+  border-radius: 10px;
+}
+/* ------------------------ Footer ----------------------------- */
+#footer {
+  background-color: rgb(12, 114, 240);
+  color: white;
+}
+#main-footer {
+  padding: 80px 0 30px 0;
+}
+#part1-footer a img {
+  width: 100px;
+  color: white;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+#part1-footer a img:hover {
+  box-shadow: 0 0 5px 3px rgb(255, 255, 255);
+}
+#part1-footer h6 {
+  margin-top: 16px;
+  font-size: 18px;
+}
+#part1-footer a span {
+  font-size: 26px;
+  color: white;
+  margin-right: 10px;
+}
+#part1-footer a span:hover {
+  color: aqua;
+}
+#sub-footer #sub1 h4,
+#sub-footer #sub3 h4 {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted white;
+}
+#sub-footer #sub1 ul,
+#sub-footer #sub3 ul {
+  margin-top: 30px;
+}
+#sub-footer #sub1 ul li,
+#sub-footer #sub3 ul li {
+  list-style: none;
+  font-size: large;
+  margin: 20px 0;
+}
+#sub-footer #sub1 ul li a {
+  color: white;
+  text-decoration: none;
+}
+#sub-footer #sub1 ul li a:hover {
+  color: aqua;
+}
+#sub-footer #sub3 ul li p span {
+  font-size: 17px;
+  margin-right: 10px;
+}
+#sub-footer #sub3 ul li p span:hover,
+#sub-footer #sub3 ul li p span a:hover {
+  color: aqua;
+}
+#sub-footer #sub3 ul li p span a {
+  text-decoration: none;
+  color: white;
+}
+#end-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+#end-footer p span:hover {
+  color: aqua;
+}
+
+@media (max-width: 768px) {
+  #baner div {
+    width: 65%;
+    padding: 15px;
+  }
+  #baner div p {
+    font-size: 17px;
+  }
+  #box3 {
+    display: none;
+  }
+}
+@media (max-width: 610px) {
+  #baner div {
+    width: 55%;
+  }
+  #baner div p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-text {
+    display: none;
+  }
+  .nav-link {
+    margin: 5px 0;
+  }
+}
+.info-box {
+  position: relative;
+  transform: translateY(70px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.info-box.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
