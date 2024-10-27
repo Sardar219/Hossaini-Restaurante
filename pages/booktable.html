@@ -102,5 +102,83 @@
         </div>
       </div>
     </div>
+    <!------------------------ Body --------------------------->
+    <div class="container-fluid">
+      <div class="container">
+        <h1 id="title">Book Table</h1>
+        <form action="" id="form" class="info-box">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <label for="name">First Name</label><br />
+              <input type="text" name="name" id="name" class="form-control" />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="last-name">Last Name</label><br />
+              <input
+                type="text"
+                name="last-name"
+                id="name"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="table-type">Table Type</label>
+              <select class="form-select form-select-md" name="table-type">
+                <option selected>Choose</option>
+                <option value="">Small (2 Person)</option>
+                <option value="">Small (4 Person</option>
+                <option value="">Median (6 Person)</option>
+                <option value="">Large (10 Person)</option>
+              </select>
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="guest">Guest Number</label><br />
+              <input
+                type="number"
+                name="guest"
+                id="guest"
+                min="0"
+                max="20"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="table-type">Table Location</label>
+              <select class="form-select form-select-md" name="table-type">
+                <option selected>Choose</option>
+                <option value="">Outdoor</option>
+                <option value="">Indoor</option>
+                <option value="">Rooftop</option>
+              </select>
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="date">Date</label><br />
+              <input type="date" name="data" id="data" class="form-control" />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="time">Time</label><br />
+              <input type="time" name="time" id="time" class="form-control" />
+            </div>
+            <label for="note">Note</label>
+            <textarea
+              name="note"
+              cols="20"
+              rows="7"
+              class="form-control"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-light">Table Book</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
