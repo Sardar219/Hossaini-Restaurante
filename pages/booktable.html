@@ -42,5 +42,65 @@
     <!-- Bootstrap.bundle.min.js online -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body onload="anim()"></body>
+  <body onload="anim()">
+    <!------------------------ Header --------------------------->
+    <div class="container-fluid" id="header">
+      <nav class="navbar navbar-expand-sm" id="nav">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand order-2">
+            <img src="../image/logo.svg" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler bg-primary"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mav"
+            id="navbarIcon"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start bg-white"
+            id="mav"
+            data-bs-backdrop="static"
+          >
+            <div class="offcanvas-header">
+              <h4 class="offcanvas-title">
+                <a href="../index.html" id="titlename">Nasib Restaurant</a>
+              </h4>
+              <button
+                class="btn-close bg-white"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body me-2">
+              <div class="navbar-text">
+                <a href="#"><span class="fab fa-facebook-square"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-instagram"></span></a>
+              </div>
+              <div class="navbar-nav ms-auto me-auto d-flex">
+                <a href="menu.html" class="nav-item nav-link">MENU</a>
+                <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                <a href="contact.html" class="nav-item nav-link">CONTACT</a>
+                <a href="#" class="nav-item nav-link" id="active">BOOKING</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container" id="baner">
+        <div>
+          <h1>Booking Now!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+            porro facere molestias nostrum maiores repellendus suscipit culpa
+            autem eveniet veniam, maxime odit? Nobis non quos ipsa debitis, quas
+            doloribus sint?Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Doloribus impedit quos corrupti commodi, animi modi hic
+            aliquid aperiam ipsam,
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
