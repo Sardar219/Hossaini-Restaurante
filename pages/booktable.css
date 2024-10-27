@@ -1,0 +1,10 @@
+#header {
+  background: url(../image/p6.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 0;
+}
+.btn {
+  width: 150px;
+  margin-top: 30px;
+}
