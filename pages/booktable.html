@@ -9,8 +9,10 @@
     <link rel="shortcut icon" href="../image/logo.svg" type="image/x-icon" />
     <!-- main style -->
     <link rel="stylesheet" href="../style.css" />
-    <!-- custome about style -->
-    <link rel="stylesheet" href="about.css" />
+    <!-- custome contact style -->
+    <link rel="stylesheet" href="contact.css" />
+    <!-- custome Booking style -->
+    <link rel="stylesheet" href="booktable.css" />
     <!-- custome Script -->
 
     <!-- fontAwasome offline -->
@@ -63,7 +65,7 @@
           >
             <div class="offcanvas-header">
               <h4 class="offcanvas-title">
-                <a href="../index.html" id="titlename">Hossaini Restaurant</a>
+                <a href="../index.html" id="titlename">Nasib Restaurant</a>
               </h4>
               <button
                 class="btn-close bg-white"
@@ -78,9 +80,9 @@
               </div>
               <div class="navbar-nav ms-auto me-auto d-flex">
                 <a href="menu.html" class="nav-item nav-link">MENU</a>
-                <a href="#" class="nav-item nav-link" id="active">ABOUT</a>
+                <a href="about.html" class="nav-item nav-link">ABOUT</a>
                 <a href="contact.html" class="nav-item nav-link">CONTACT</a>
-                <a href="booktable.html" class="nav-item nav-link">BOOKING</a>
+                <a href="#" class="nav-item nav-link" id="active">BOOKING</a>
               </div>
             </div>
           </div>
@@ -88,7 +90,7 @@
       </nav>
       <div class="container" id="baner">
         <div>
-          <h1>About Us</h1>
+          <h1>Booking Now!</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
             porro facere molestias nostrum maiores repellendus suscipit culpa
@@ -102,49 +104,80 @@
     </div>
     <!------------------------ Body --------------------------->
     <div class="container-fluid">
-      <div class="container" id="body">
-        <div class="row info-box" id="body-1">
-          <div class="col-lg-5 col-12">
-            <img src="../image/p3.jpg" alt="" class="img-fluid" />
+      <div class="container">
+        <h1 id="title">Book Table</h1>
+        <form action="" id="form" class="info-box">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <label for="name">First Name</label><br />
+              <input type="text" name="name" id="name" class="form-control" />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="last-name">Last Name</label><br />
+              <input
+                type="text"
+                name="last-name"
+                id="name"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="table-type">Table Type</label>
+              <select class="form-select form-select-md" name="table-type">
+                <option selected>Choose</option>
+                <option value="">Small (2 Person)</option>
+                <option value="">Small (4 Person</option>
+                <option value="">Median (6 Person)</option>
+                <option value="">Large (10 Person)</option>
+              </select>
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="guest">Guest Number</label><br />
+              <input
+                type="number"
+                name="guest"
+                id="guest"
+                min="0"
+                max="20"
+                class="form-control"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="table-type">Table Location</label>
+              <select class="form-select form-select-md" name="table-type">
+                <option selected>Choose</option>
+                <option value="">Outdoor</option>
+                <option value="">Indoor</option>
+                <option value="">Rooftop</option>
+              </select>
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="date">Date</label><br />
+              <input type="date" name="data" id="data" class="form-control" />
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="time">Time</label><br />
+              <input type="time" name="time" id="time" class="form-control" />
+            </div>
+            <label for="note">Note</label>
+            <textarea
+              name="note"
+              cols="20"
+              rows="7"
+              class="form-control"
+            ></textarea>
           </div>
-          <div class="col-lg-6 col-12" id="text-1">
-            <h1 id="tital">About Us</h1>
-            <h5>It's all started since 2015 21<sup>th</sup> July</h5>
-            <h6>
-              Welcome to Afghan Food Resturant. We take pride in delivering
-              warm, friendly service and creating mouth-watering culinary
-              delights for all. Using only the freshest locally sourced
-              ingredients, we’ll ensure you have a dining experience to
-              remember.<br />
-              Since 2022 1th junuary, we are the perfect place for a catch-up
-              with friends, family parties and business meetings . With
-              comfortable surroundings, affordable prices, and seating for up to
-              30 guests, we can cater for all occasions.
-            </h6>
-          </div>
-        </div>
-        <div class="row info-box" id="body-2">
-          <div class="col-12" id="text-2">
-            <h1 id="title">Our Goals</h1>
-            <h6>
-              We speak the good food language We shall sell delicious and
-              remarkable food and beverages that meet the highest quality,
-              freshness, and seasonality criteria while combining
-              modern-creative and classic cooking traditions. By showcasing
-              warmth, graciousness, efficiency, skill, professionalism, and
-              integrity in our work, we will continually serve our consumers
-              with exceptional service. To have every customer who comes through
-              our doors leave impressed by their experience at Afghan Food
-              resturant and excited to come back again.
-            </h6>
-          </div>
-          <div class="col-6" id="image1">
-            <img src="../image/p1.jpg" alt="" class="img-fluid" />
-          </div>
-          <div class="col-6" id="image2">
-            <img src="../image/p4.jpg" alt="" class="img-fluid" />
-          </div>
-        </div>
+          <button type="submit" class="btn btn-light">Table Book</button>
+        </form>
       </div>
     </div>
     <!------------------------ Footer --------------------------->
@@ -169,9 +202,9 @@
                 <h4>Links</h4>
                 <ul>
                   <li><a href="menu.html">Menu</a></li>
-                  <li><a href="#">About Us</a></li>
+                  <li><a href="about.html">About Us</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="booktable.html">Book Table</a></li>
+                  <li><a href="#">Book Table</a></li>
                 </ul>
               </div>
               <div class="col-md-4 col-sm-12" id="sub1">
@@ -197,8 +230,8 @@
                     <p>
                       <span class="fa fa-envelope"></span>
                       <span
-                        ><a href="mailto:hossaini224@gmail.com"
-                          >hossaini224@gmail.com</a
+                        ><a href="mailto:nasib343@gmail.com"
+                          >nasib343@gmail.com</a
                         ></span
                       >
                     </p>
@@ -216,10 +249,11 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div id="end-footer">
-        <p>&copy; copyright 2023 Hossaini Restaurant | All rights reserved</p>
-        <p>Autor : <span>Sardar Hossaini</span></p>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row" id="end-footer">
+          <p>&copy; copyright 2023 Nasib Restaurant | All rights reserved</p>
+        </div>
       </div>
     </div>
   </body>
