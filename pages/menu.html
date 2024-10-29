@@ -100,5 +100,517 @@
         </div>
       </div>
     </div>
+    <!------------------------ Body --------------------------->
+    <div class="container">
+      <div id="food-list">
+        <ul>
+          <li><button class="btn btn-primary" id="list-active">All</button></li>
+          <li>
+            <button class="btn btn-primary" id="Afgani_button">Afghani</button>
+          </li>
+          <li>
+            <button class="btn btn-primary" id="Forgine_button">Forgine</button>
+          </li>
+          <li>
+            <button class="btn btn-primary" onclick="drink()">Drink</button>
+          </li>
+          <li>
+            <button class="btn btn-primary" onclick="kab()">Kabab</button>
+          </li>
+          <li>
+            <button class="btn btn-primary" onclick="desair()">Desair</button>
+          </li>
+        </ul>
+      </div>
+      <div class="row" id="booking-box">
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f10.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Afghani Foods</h6>
+              <p>1000 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f5.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Ashak</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f4.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Qurma</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f14.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Lobia</h6>
+              <p>200 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 info-box card afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f1.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Manto</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box fast-food" id="card">
+          <div class="card-header">
+            <img src="../image/f6.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Humbarger</h6>
+              <p>200 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f7.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Bolani</h6>
+              <p>100 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box kabab" id="card">
+          <div class="card-header">
+            <img src="../image/f11.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Kabab Shami</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f13.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Kofta</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box kabab" id="card">
+          <div class="card-header">
+            <img src="../image/f15.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Chabli Kabab</h6>
+              <p>200 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f16.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Manto</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f8.png" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Nani Tanori</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f17.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Pizza</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f20.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Qabali</h6>
+              <p>350 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f19.png" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Special Salad</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f21.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Special Afghani Food</h6>
+              <p>1000 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f22.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Shola</h6>
+              <p>200 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f23.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Jelabi</h6>
+              <p>150 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box kabab" id="card">
+          <div class="card-header">
+            <img src="../image/f24.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Kabab Bara</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f25.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Ashak</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f26.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Qabali Uzbaki</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box afghani" id="card">
+          <div class="card-header">
+            <img src="../image/f18.png" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Qabali</h6>
+              <p>300 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f9.png" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Fruit Salad</h6>
+              <p>400 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <button class="btn btn-outline-primary btn-block">
+              <a href="order.html">ORDER</a>
+            </button>
+          </div>
+        </div>
+        <div class="col-5 col-md-3 card info-box forgine" id="card">
+          <div class="card-header">
+            <img src="../image/f2.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <div id="name-value">
+              <h6>Chabli Kabab</h6>
+              <p>200 AFG</p>
+            </div>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-on"></span>
+            <span class="fa fa-star" id="star-off"></span>
+            <!-- <button class="btn btn-outline-primary btn-block"><a href="order.html">ORDER</a></button> -->
+            <button
+              class="btn btn-outline-primary"
+              btn-block
+              data-bs-toggle="modal"
+              data-bs-target="#boxx"
+            >
+              change
+            </button>
+            <div class="modal fade" id="boxx">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1>Sardar Hussaini</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Officia voluptatum nostrum accusantium architecto quae
+                      sequi molestias dolorem odit, illum saepe corporis placeat
+                      veritatis pariatur id exercitationem sed, quaerat
+                      dignissimos omnis.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-dark" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button class="btn btn-primary">Save Change</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
