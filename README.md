@@ -17,7 +17,7 @@ Welcome to the Hossaini Resturante web interface you can play music on your devi
 - Bootstrap5
 - javascript
 
-<b>[Live Demo](https://sardar219.github.io/Hossaini-Restaurante/)</b>
+<b>[Live Demo](https://sardarhossaini.github.io/Hossaini-Restaurante/)</b>
 
 ## My Contact
 
